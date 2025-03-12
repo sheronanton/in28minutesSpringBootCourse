@@ -12,7 +12,7 @@ public class App02HelloWorldSpring {
         //2. Configure the things we want Spring to manage - @Configuration
 
         System.out.println(context.getBean("name"));
-
+        System.out.println("Push");
 
     }
 }
